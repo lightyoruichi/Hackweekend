@@ -1,0 +1,19 @@
+/*
+Theme Name: Hackweekend
+Theme URI: http://hack.weekend.my/
+Description: 
+Author: Hackweekend
+Version: 1
+Template: twentyten
+*/
+
+@import url("../twentyten/style.css");
+
+.clear { clear: both; }
+
+#site-title, #site-description, #comments { display: none; }
+#branding img { border-top: 0px; }
+
+ul.participants { list-style-type: none; }
+ul.participants li { padding-left: 5px; }
+ul.participants li:nth-child(even) { background: #F1F1F1; }

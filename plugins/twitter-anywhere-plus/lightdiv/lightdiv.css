@@ -1,0 +1,109 @@
+#lightdiv-overlay {
+  z-index: 10000;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  visibility: hidden;
+  text-align: right;
+}
+
+#lightdiv-overlay .plugin {
+  position: absolute;
+  font-family: "Segoe UI",Calibri,"Myriad Pro",Myriad,"Trebuchet MS",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  bottom: 10px;
+  right: 14px;
+  color: #FFF;
+}
+
+#lightdiv {
+  z-index: 10001;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -283px;
+  margin-top: -150px; /* -90px without bird (centered) */
+  visibility: hidden;
+}
+
+#lightdiv .b {
+  background:url(b.png);
+}
+
+#lightdiv .tl {
+  background:url(tl.png);
+}
+
+#lightdiv .tr {
+  background:url(tr.png);
+}
+
+#lightdiv .bl {
+  background:url(bl.png);
+}
+
+#lightdiv .br {
+  background:url(br.png);
+}
+
+#lightdiv table {
+  border-collapse: collapse;
+  width:100%;
+  height:100%;
+  margin: 0px;
+}
+
+#lightdiv td {
+  border: 0; /* border-bottom: 0; */
+  padding: 0;
+}
+
+#lightdiv .body {
+  padding: 10px;
+  background: #fff;
+  vertical-align: bottom;
+  text-align: center;
+  /* width: 550px; */
+}
+
+#lightdiv .footer {
+  border-top: 1px solid #DDDDDD;
+  padding-top: 5px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+  text-align: right;
+}
+
+#lightdiv .tl, #lightdiv .tr, #lightdiv .bl, #lightdiv .br {
+  height: 10px;
+  width: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+
+#lightdiv .twitter-bird {
+  position: relative;
+  height: 69px;
+  background: 400px no-repeat;
+  margin-bottom: -10px;
+}
+
+#lightdiv-button-div-l {
+  float: left;
+  margin-right: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  clear: both;
+}
+
+#lightdiv-button-div-r {
+  float: right;
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  clear: both;
+}

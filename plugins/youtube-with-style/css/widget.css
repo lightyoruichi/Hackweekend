@@ -1,0 +1,45 @@
+div.widget-youtube-list {
+	text-align: left;
+}
+
+div.widget-youtube-list ul {
+	list-style: none;
+	list-style-type: none;
+}
+
+div.widget-youtube-list li {
+    width: 130px;
+    min-height: 130px;
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px;
+    zoom: 1;
+    *display: inline;
+    _height: 150px;
+}
+
+div.widget-youtube-list li p {
+	font-size: 11px;
+	padding: 0;
+	margin: 0;
+}
+
+ul.widget-videolisting {
+	list-style: none;
+	list-style-type: none;
+}
+
+ul.widget-videolisting li {
+	width: 130px;
+	margin: 0;
+}
+
+
+ul.widget-videolisting span {
+	display:block;
+}
+
+ul.widget-videolisting li:before {
+	content: "";
+}

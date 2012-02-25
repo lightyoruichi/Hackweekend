@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+#stickynote-main{position:relative;}
+/* Reset Styles */
+#stickynote-main *{
+	border:none; 
+	font-family:Arial, Helvetica, sans-serif; 
+	letter-spacing:normal;
+	font-size:12px; 
+	line-height:normal;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: none;
+}
+#stickynote-main input, #stickynote-main textarea {
+	line-height: 16px;
+}
+
+#stickynote-main::-moz-selection, #stickynote-main::selection{
+    background-color:Transparent;
+    }
+
+#stickynote-main a{color:#333;}
+a.stickynote_comment-submit{line-height:20px;}
+
+#icon-sticky-notes{background: transparent url(../images/icon_large.png) no-repeat;}
+
+#stickynote-main .stickynote, #stickynote-main .pr-stickynote{
+	width:140px; 
+	height:137px; 
+	line-height:16px;
+	padding:8px;
+	position:absolute;
+	font-family:Trebuchet MS,Tahoma,Myriad Pro,Arial,Verdana,sans-serif;
+	font-size:12px; 
+	cursor:move; 
+	-moz-border-radius:6px 0 8px 0; 
+	-webkit-border-radius:6px 0 8px 0; 
+	border-radius:6px 0 8px 0; 
+	border-width:2px !important;
+	border-style:solid !important;
+	background: url(../images/shadow.png) 0 0 repeat-x;}
+
+#add_sticky_note{position:relative;z-index:0; height:100%; overflow:hidden; background: url(../images/start.png) 98% 20px no-repeat;}
+#sticknote-preview{width:34%; height:190px; float:left; position:relative;}
+#sticknote-preview .stickynote{
+left:50%;
+position:absolute;
+margin-left:-70px;
+margin-top:-78px;
+top:50%;
+}
+
+#stickynote-main textarea, #stickynote-main input[type="text"] {
+	background:#FCFCFC !important;
+	border:1px solid #AAAAAA;
+	font-family:Arial,Verdana,sans-serif;
+	font-size:13px;
+	margin-bottom:4px;
+	padding:2px !important;
+	width:94%;
+	overflow-x:hidden;
+}
+
+#stickynote-main .sticknote-form textarea{
+	height:50px;	
+}
+#stickynote-main .stickynote_comments_form textarea{height:81px;line-height: 16px;}
+
+
+#stickynote-main #stickynote-submit, #stickynote-main .stickynote_comment-submit{
+	-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;
+	background:none repeat scroll 0 0 #F96060;
+	border:2px solid #F75050;
+	color:#FFFFFF;
+	cursor:pointer;
+	display:block;
+	float:right;
+	font-weight:bold;
+	height:20px;
+	line-height:20px;
+	margin:0 18px 0 0;
+	padding:0 8px;
+	text-align:center;
+	text-decoration:none;
+}
+#stickynote-main .stickynote_comment-submit{
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:2px solid #CECECE;
+	color:#333333;
+	margin: 4px 0 0 0;
+}
+.sticknote-form label {
+display:block;
+font-size:10px;
+font-weight:bold;
+letter-spacing:1px;
+padding:3px;
+text-transform:uppercase;
+}
+
+#sticknote-data{float:right; width:64%; padding:8px 0; list-style:none;}
+#sticknote-data li{ list-style:none; !important}
+#add_sticky_note-content{ height:190px;-moz-border-radius:0 0 0 8px; -webkit-border-radius:0 0 0 8px; border-radius:0 0 0 8px; border-width:0 1px 1px 1px; border-style: solid; border-color: #aaa; position:absolute; top: -191px; right:0;width:611px;background: #f7f6e8 url(../images/shadow.png) 0 0 repeat-x;z-index:99999;}
+
+#stickynote-toggle{ background: #f7f6e8; display:block; padding:4px 16px; border-width:0 1px 1px 1px; border-style: solid; border-color: #aaa; cursor:pointer; width:132px; text-align:center;-moz-border-radius:0 0 8px 8px; -webkit-border-radius:0 0 8px 8px; border-radius:0 0 8px 8px; position:absolute; bottom:-23px; right:-1px; z-index:99;text-transform:uppercase;font-size:10px;height:14px;}
+
+.add_sticky_note-title{font-size:12px;
+font-weight:normal;
+letter-spacing:1px;
+margin:0;
+padding:4px 8px;
+text-transform:uppercase;}
+
+.box-shadow {
+  -moz-box-shadow: 0px 6px 6px -6px #918d66; /* Firefox */
+  -webkit-box-shadow: 0px 6px 6px -6px #918d66; /* Safari, Chrome */
+  box-shadow: 0px 6px 6px -6px #918d66; /* CSS3 */
+}
+#stickynote-main label span{font-weight:normal; font-size:10px;margin:0 0 0 16px;}
+#stickynote-main .stickynote-leftarrow, #stickynote-main .stickynote-rightarrow{ background: url(../images/arrows.png) no-repeat;height:20px;position:absolute;width:20px; display:none; cursor:pointer; padding: 6px 0;}
+#stickynote-main .stickynote-leftarrow{background-position:0 50%; position:absolute; left:-26px; top:56px;}
+#stickynote-main .stickynote-rightarrow{background-position:100% 50%; position:absolute; right:-26px; top:56px;}
+#stickynote-main .stickynote-commentsbutton, #stickynote-main .pr-stickynote-commentsbutton{background: url(../images/comments_small.png) 50% 50% no-repeat; height:20px; width:20px; display:block;position:absolute;right:5px;top:5px; cursor:pointer;z-index:6666;}
+.stickynote_comments_form, .stickynote_comments_data{position:absolute; top:8px; left:8px; height:142px; width:140px;}
+.stickynote_comments_form{display:none;}
+
+
+#stickynotes-settingsform label{font-size:13px;}
+.stickynote-id{display:none;}
+#stickynote-main .color-box, #stickynote_colors .color-box{margin:4px 0; width:100%;}
+#stickynote-main .color-box-box, #stickynote_colors .color-box-box{width:20px; height:20px;-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px; border-width:2px !important;border-style:solid !important; float:left; margin-right:4px; text-align:center; line-height:20px; font-weight:bold; cursor:pointer;font-size:11px;}
+.stickynote-count{font-weight:normal;letter-spacing:0;}
+.color-box input{width:29%; text-transform:uppercase}
+input.color-box-input{position:relative;}
+#stickynote_style{padding:2px; width:100%;}
+#stickynote_style option{border:1px solid; padding:5px;}
+.stickynote-body{list-style:none; margin:0; padding:0;}
+.stickynote-body li{left:0;position:absolute;top:0; height:137px; width:100%;list-style:none;}
+
+/* User End Styles */
+
+
+#stickynote-main .stickynote-date, #stickynote-main .stickynote_comments-title, #stickynote-main label{font-size:10px;
+font-weight:bold;
+letter-spacing:1px;
+margin:0;
+padding:0;
+float:left;
+padding:3px 0;
+text-transform:uppercase;}
+
+#stickynote-main .stickynote-title {
+bottom:0;
+font-family:Arial,Verdana,sans-serif;
+font-size:11px;
+position:absolute;
+right:0;
+border:0;
+font-style:italic;
+}

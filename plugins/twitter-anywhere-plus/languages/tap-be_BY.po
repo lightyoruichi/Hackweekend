@@ -1,0 +1,247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Twitter @Anywhere Plus 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-05-19 23:16+0100\n"
+"PO-Revision-Date: 2010-05-19 23:17+0100\n"
+"Last-Translator: Jose Antonio Ramirez <geekrmx@ngeeks.com>\n"
+"Language-Team: Marcis G. <by.marcis@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: twitter-anywhere-plus.php:82
+msgid "Options saved."
+msgstr "Опцыі захаваны."
+
+#: twitter-anywhere-plus.php:122
+msgid "In order to use @Anywhere, you must first register your blog for a free API key with Twitter.<br />You can do so at the following URL:"
+msgstr "Для таго, каб выкарыстоўваць @Anywhere, вы павінны спачатку зарэгістраваць свой блог для атрымання бясплатнага ключа API з Twitter. <br /> Гэта можна зрабіць па наступным адрасе:"
+
+#: twitter-anywhere-plus.php:123
+msgid "Your @Anywhere API key:"
+msgstr "Ваш @Anywhere API ключ:"
+
+#: twitter-anywhere-plus.php:125
+msgid "@Anywhere features"
+msgstr "@Anywhere магчымасці"
+
+#: twitter-anywhere-plus.php:130
+msgid "Auto-linkification of @usernames"
+msgstr "Аўта-linkification @usernames"
+
+#: twitter-anywhere-plus.php:131
+msgid "Turn Twitter usernames into links."
+msgstr "Уключыць імёны карыстачоў Twitter у спасылкі."
+
+#: twitter-anywhere-plus.php:139
+msgid "Hovercards"
+msgstr "Hovercards"
+
+#: twitter-anywhere-plus.php:140
+msgid "Show hovercard when you move the mouse over a Twitter username."
+msgstr "Паказаць hovercard, калі вы перасоўваеце паказальнік мышы на імя карыстача Twitter."
+
+#: twitter-anywhere-plus.php:148
+msgid "Follow button"
+msgstr "Кнопка Follow"
+
+#: twitter-anywhere-plus.php:149
+msgid "Show a follow button where you want it to be placed."
+msgstr "Паказаць кнопку button там, дзе яна павінна знаходзіцца."
+
+#: twitter-anywhere-plus.php:152
+msgid "Twitter username:"
+msgstr "Імя карыстача Twitter:"
+
+#: twitter-anywhere-plus.php:156
+#: twitter-anywhere-plus.php:163
+#: twitter-anywhere-plus.php:165
+msgid "DOM element:"
+msgstr "DOM элемент:"
+
+#: twitter-anywhere-plus.php:160
+msgid "The <em>id</em> or <em>class</em> of the element (div, p) where the button must be inserted."
+msgstr "<em>id</em> ці <em>клас</em> элемента (div, p), дзе кнопка павінна быць усталявана."
+
+#: twitter-anywhere-plus.php:161
+#: twitter-anywhere-plus.php:202
+#: twitter-anywhere-plus.php:215
+#: twitter-anywhere-plus.php:270
+#: twitter-anywhere-plus.php:298
+#: twitter-anywhere-plus.php:301
+msgid "Example:"
+msgstr "Прыклад:"
+
+#: twitter-anywhere-plus.php:162
+msgid "You can create a Text widget with the following code inside:"
+msgstr "Вы можаце стварыць тэкставы виджет з наступным кодам усярэдзіне:"
+
+#: twitter-anywhere-plus.php:164
+msgid "You can also use classes:"
+msgstr "Вы таксама можаце выкарыстоўваць класы:"
+
+#: twitter-anywhere-plus.php:176
+msgid "Tweet Box"
+msgstr ""
+
+#: twitter-anywhere-plus.php:177
+msgid "Show a tweet box below your posts or pages."
+msgstr ""
+
+#: twitter-anywhere-plus.php:180
+#: twitter-anywhere-plus.php:253
+msgid "Display in..."
+msgstr ""
+
+#: twitter-anywhere-plus.php:180
+#: twitter-anywhere-plus.php:253
+msgid "Posts"
+msgstr ""
+
+#: twitter-anywhere-plus.php:180
+#: twitter-anywhere-plus.php:253
+msgid "Pages"
+msgstr ""
+
+#: twitter-anywhere-plus.php:183
+msgid "Width:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:184
+#: twitter-anywhere-plus.php:188
+#: twitter-anywhere-plus.php:192
+#: twitter-anywhere-plus.php:260
+msgid "Default:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:187
+msgid "Height:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:191
+#: twitter-anywhere-plus.php:259
+msgid "Label:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:195
+#: twitter-anywhere-plus.php:263
+msgid "Content:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:199
+#: twitter-anywhere-plus.php:267
+msgid "You can use the following tags in the Tweet Box content:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:200
+#: twitter-anywhere-plus.php:240
+#: twitter-anywhere-plus.php:268
+msgid "Post title"
+msgstr ""
+
+#: twitter-anywhere-plus.php:201
+#: twitter-anywhere-plus.php:241
+#: twitter-anywhere-plus.php:269
+msgid "Short URL"
+msgstr ""
+
+#: twitter-anywhere-plus.php:212
+msgid "Custom Tweet Boxes"
+msgstr ""
+
+#: twitter-anywhere-plus.php:213
+msgid "Create alternative tweet boxes using the following shorcode:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:214
+msgid "You can use the shortcode in your posts or text widgets."
+msgstr ""
+
+#: twitter-anywhere-plus.php:219
+msgid "Attributes"
+msgstr ""
+
+#: twitter-anywhere-plus.php:220
+msgid "Default"
+msgstr ""
+
+#: twitter-anywhere-plus.php:232
+#: twitter-anywhere-plus.php:260
+#: twitter-anywhere-plus.php:458
+#: twitter-anywhere-plus.php:509
+msgid "What's happening?"
+msgstr ""
+
+#: twitter-anywhere-plus.php:236
+msgid "empty"
+msgstr ""
+
+#: twitter-anywhere-plus.php:239
+msgid "You can use the following tags in the content:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:249
+msgid "Retweet button"
+msgstr ""
+
+#: twitter-anywhere-plus.php:250
+msgid "Show a \"Retweet\" button on the top/bottom right corner of your posts or pages.<br />(Clicking the button will launch a Tweet Box with a Lightbox effect.)"
+msgstr ""
+
+#: twitter-anywhere-plus.php:256
+msgid "Button position:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:256
+msgid "Top"
+msgstr ""
+
+#: twitter-anywhere-plus.php:256
+msgid "Bottom"
+msgstr ""
+
+#: twitter-anywhere-plus.php:273
+msgid "Twitter bird:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:273
+#: twitter-anywhere-plus.php:294
+msgid "None"
+msgstr ""
+
+#: twitter-anywhere-plus.php:294
+msgid "URL shortener:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:296
+msgid "Username:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:296
+msgid "API key:"
+msgstr ""
+
+#: twitter-anywhere-plus.php:297
+#, php-format
+msgid "%1$sSign up for a bit.ly account%2$s. Once you register, you will find your API key %3$shere%2$s.<br />If you leave this blank, the plugin will use a default username and API key."
+msgstr ""
+
+#: twitter-anywhere-plus.php:307
+msgid "Save changes"
+msgstr "Захаваць змены"
+
+#: twitter-anywhere-plus.php:310
+msgid "This plugin has been developed by <strong>GeekRMX</strong>."
+msgstr "Гэта ўбудова была распрацаваны <strong>GeekRMX</strong>."
+
+#: twitter-anywhere-plus.php:312
+msgid "Website:"
+msgstr "Сайт:"
+
