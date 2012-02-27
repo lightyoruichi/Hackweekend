@@ -1838,4 +1838,65 @@ color: #fff;
 border-radius: 99px;
 background: #fff;
 color: #000;
-}	
+}
+
+.posttitle .details {
+    float: left;
+    display: inline-block;
+    width: 300px;
+}
+
+#content .posttitle h3 {
+	font-size: 18px;
+}
+
+.posttitle .map {
+    margin-left: 440px;
+    min-height: 170px;
+}
+
+.info-button {
+	font-size: 14px;
+	font-weight: bold;
+	background: #2DAEBF url(images/alert-overlay.png) repeat-x; 
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5); 
+	border-radius: 6px; 
+	padding: 6px; 
+	color: white;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
+	border: none;
+	width: 300px;
+}
+
+.info-button:hover {
+	background-color: #007D9A;
+	color: white;
+}
+
+.profileform li {
+	padding: 10px;
+	background: #f2f2f2;
+	margin: 5px;
+	font-size: 16px;
+}
+
+.profileform li label {
+	width: 125px;
+	display: inline-block;
+	font-weight: bold;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.profileform li input {
+	font-size: 16px;
+}
+
+#comment {
+	/*display: none;*/
+}
+
+#commentform input {
+	width: auto;
+	padding: 5px 10px;
+}

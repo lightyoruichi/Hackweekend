@@ -34,7 +34,7 @@
 	<b><?php _e("Check out what others are saying...", 'organicthemes'); ?></b>
 	<ol class="commentlist">
 	<?php wp_list_comments('type=pings'); ?>
-	</ol><br /><br />
+	</ol><br value="<br value="
 	<?php endif; ?>
 	
  <?php else : // this is displayed if there are no comments so far ?>
@@ -72,13 +72,13 @@
 
 <?php else : ?>
 
-<p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
+<p><input type="text" name="author" id="author" value="<?php echo $comment_author; ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> value="
 <label for="author"><small><?php _e("Name", 'organicthemes'); ?> <?php if ($req) echo "(required)"; ?></small></label></p>
 
-<p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
+<p><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> value="
 <label for="email"><small><?php _e("Mail (will not be published)", 'organicthemes'); ?> <?php if ($req) echo "(required)"; ?></small></label></p>
 
-<p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" />
+<p><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" value="
 <label for="url"><small><?php _e("Website", 'organicthemes'); ?></small></label></p>
 
 <?php endif; ?>
@@ -86,12 +86,11 @@
 <!--<p><small><strong>XHTML:</strong> You can use these tags: <code><?php echo allowed_tags(); ?></code></small></p>-->
 
 <p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
-
-<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" value="
 <?php comment_id_fields(); ?>
 </p>
 <?php do_action('comment_form', $post->ID); ?>
-
+<?php show_manual_subscription_form(); ?>
 </form>
 </div>
 
